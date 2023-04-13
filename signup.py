@@ -3,6 +3,7 @@
 
 class signup:
     def reg(self):
+        print(">>>>>SIGNUP>>>>>>")
         mail = input("Mail :")
         pwd  = input("password:")
         c_pwd =input("Confirm password :")
@@ -12,8 +13,3 @@ class signup:
             print("password or entries are invalid !")
 access = signup()
 access.reg()
-        
-        
-        
-            
-        
